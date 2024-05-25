@@ -1,0 +1,136 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: "Kanit";
+}
+
+body
+{
+    background-image: url(img/school-image.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+}
+
+nav
+{
+    backdrop-filter: blur(2px);
+    width: 100;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul
+{
+    margin-right: 7%;
+    width: 404px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: medium;
+    color: white;
+}
+
+#n-logo
+{
+    margin-left: 10%;
+    display: flex;
+    width: 30%;
+    height: 70px;
+    align-items: center;
+    font-size: larger;
+    font-weight: 700;
+}
+
+#n-logo p
+{
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.n-img
+{
+    height: 60px;
+}
+
+a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.el:hover
+{
+    transform: scale(1.1);
+    cursor: pointer;
+    color: rgb(124, 255, 2);
+    text-decoration: underline;
+}
+
+a:hover
+{
+    color: rgb(124, 255, 2);
+}
+
+.pr
+{
+    border: 1px solid white;
+    border-radius: 6px;
+    backdrop-filter: blur(5px);
+    height: 500px;
+    width: 900px;
+    justify-self: center;
+    display:grid;
+}
+
+.cards
+{
+    height: 200%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-self: flex-end;
+}
+
+.card
+{
+    height: 70%;
+    width: 30%;
+    background-color: aqua;
+    display: grid;
+}
+
+.pr p
+{
+    color: white;
+    font-family: "Kanit";
+    text-align: center;
+    align-self: start;
+    height: 30%;
+    width: 100%;
+    font-size: 40px;
+}
+
+.cmg
+{
+    margin: 5px;
+    height: 100%;
+    width: 98%;
+    background-color: brown;
+}
+
+.card h3
+{
+    font-size: larger;
+    /* justify-self: center; */
+    height: 30px;
+    text-align: center;
+    background-color: antiquewhite;
+}

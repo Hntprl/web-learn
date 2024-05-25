@@ -1,0 +1,125 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-image: url(school-image.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+}
+
+nav
+{
+    backdrop-filter: blur(2px);
+    width: 100;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul
+{
+    margin-right: 7%;
+    width: 404px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: medium;
+    color: white;
+}
+
+#n-logo
+{
+    margin-left: 10%;
+    display: flex;
+    width: 30%;
+    height: 70px;
+    align-items: center;
+    font-size: larger;
+    font-weight: 700;
+}
+
+#n-logo p
+{
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.n-img
+{
+    height: 60px;
+}
+
+a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.el:hover
+{
+    transform: scale(1.1);
+    cursor: pointer;
+    color: rgb(124, 255, 2);
+    text-decoration: underline;
+}
+
+a:hover
+{
+    color: rgb(124, 255, 2);
+}
+
+.sun
+{
+    border: 1px solid white;
+    border-radius: 5px;
+    backdrop-filter: blur(3px);
+    height: 300px;
+    width: 400px;
+    align-self: center;
+    justify-self: center;
+    display: grid;
+    font-family: "Kanit";
+}
+
+.sun h1
+{
+    align-self: center;
+    padding: 10px;
+    justify-self: center;
+    color: black;
+}
+
+.sun button
+{
+    height: 40px;
+    width: 200px;
+    justify-self: center;
+    font-size: large;
+    border: none;
+    border-radius: 12px;
+    font-family: "Kanit";
+}
+
+.sun p
+{
+    display: inline-block;
+    margin: 5px;
+    justify-self: center;
+}
+
+.sun button:hover
+{
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: rgb(0, 153, 255);
+    color: white;
+}
